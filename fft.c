@@ -60,7 +60,7 @@ void dft(const float* in_frames, float *out_frequencies,
       //     e^{ix} = cos(x) + i * sin(x)
       // Using imaginary number is just a shortcut to encode information
       // for both sine and cosine.
-      out_frequencies[freq] += in_frames[frame] * cexpf(2 * I * PI * freq * t);
+      out_frequencies[freq] += in_frames[frame] * cexpf(-2 * I * PI * freq * t);
     }
   }
   return;
