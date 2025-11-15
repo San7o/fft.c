@@ -11,4 +11,4 @@ visualization.
 
 ## Demo
 
-![demo video](./media/demo.mp4)
+https://github.com/user-attachments/assets/41c55951-0b4e-4b70-b6bc-aba1428d7f2e
